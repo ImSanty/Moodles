@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "moodles",
+  "version": "${version}",
+  "name": "Moodles",
+  "description": "Moodles to MC!",
+  "authors": ["ImSanty"],
+  "contact": {
+    "homepage": "https://github.com/ImSanty",
+    "sources": "https://github.com/ImSanty/Moodles"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/moodles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.imsanty.moodles.Moodles"],
+    "fabric-datagen": ["net.imsanty.moodles.MoodlesDataGenerator"],
+    "client": ["net.imsanty.moodles.MoodlesClient"]
+  },
+  "mixins": ["moodles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
