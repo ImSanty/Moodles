@@ -1,0 +1,43 @@
+{
+  "item.moodles.bandage": "Bandage",
+  "item.moodles.pink_garnet": "Pink Garnet",
+  "item.moodles.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.moodles.pink_garnet_block": "Pink Garnet Block",
+  "block.moodles.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
+  "itemgroup.moodles.moodles_item_group": "Moodles Item Group",
+  "itemgroup.moodles.moodles_block_group": "Moodles Block Group",
+
+  "moodle.moodles.hunger": "Hunger",
+  "moodle.moodles.hunger.MINOR": "Peckish",
+  "moodle.moodles.hunger.MODERATE": "Hungry",
+  "moodle.moodles.hunger.MAJOR": "Very Hungry",
+  "moodle.moodles.hunger.CRITICAL": "Starving",
+  "moodle.moodles.satiety": "Satiety",
+  "moodle.moodles.satiety.MINOR": "Satiated",
+  "moodle.moodles.satiety.MODERATE": "Well Fed",
+  "moodle.moodles.satiety.MAJOR": "Stuffed",
+  "moodle.moodles.satiety.CRITICAL": "Full to Bursting",
+  "moodle.moodles.pain": "Pain",
+
+  "bodypart.moodles.head": "Head",
+  "bodypart.moodles.torso": "Torso",
+  "bodypart.moodles.left_arm": "Left Arm",
+  "bodypart.moodles.right_arm": "Right Arm",
+  "bodypart.moodles.left_leg": "Left Leg",
+  "bodypart.moodles.right_leg": "Right Leg",
+
+  "scoreboard.moodles.body_health": "Body Health",
+  "scoreboard.moodles.nutrition": "Nutrition",
+  "screen.moodles.body_health": "Body Condition",
+
+  "key.moodles.body_health": "Open Body Condition",
+  "key.categories.moodles": "Moodles",
+
+  "commands.moodles.debug.enabled": "Moodles debug display enabled.",
+  "commands.moodles.debug.disabled": "Moodles debug display disabled.",
+  "commands.moodles.debug.already_enabled": "Moodles debug display is already enabled.",
+  "commands.moodles.debug.already_disabled": "Moodles debug display is already disabled.",
+  "debug.moodles.none": "No active moodles"
+}
