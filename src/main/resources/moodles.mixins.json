@@ -1,14 +1,12 @@
 {
-	"required": true,
-	"package": "net.imsanty.moodles.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "net.imsanty.moodles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ExampleMixin", "HungerManagerMixin", "PlayerEntityMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
